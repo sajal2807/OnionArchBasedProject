@@ -1,0 +1,15 @@
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\bin\Debug\netcoreapp3.1\OA.Repo.deps.json
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\bin\Debug\netcoreapp3.1\OA.Repo.dll
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\obj\Debug\netcoreapp3.1\OA.Repo.csprojAssemblyReference.cache
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\obj\Debug\netcoreapp3.1\OA.Repo.AssemblyInfoInputs.cache
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\obj\Debug\netcoreapp3.1\OA.Repo.AssemblyInfo.cs
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\bin\Debug\netcoreapp3.1\OA.Repo.pdb
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\bin\Debug\netcoreapp3.1\OA.Data.dll
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\bin\Debug\netcoreapp3.1\OA.Data.pdb
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\obj\Debug\netcoreapp3.1\OA.Repo.csproj.CopyComplete
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\obj\Debug\netcoreapp3.1\OA.Repo.dll
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\obj\Debug\netcoreapp3.1\OA.Repo.pdb
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\bin\Debug\netcoreapp3.1\OA.Repo.runtimeconfig.json
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\bin\Debug\netcoreapp3.1\OA.Repo.runtimeconfig.dev.json
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\obj\Debug\netcoreapp3.1\OA.Repo.csproj.CoreCompileInputs.cache
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Repo\obj\Debug\netcoreapp3.1\OA.Repo.genruntimeconfig.cache
