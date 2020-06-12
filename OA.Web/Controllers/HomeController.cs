@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using OA.Web.Models;
@@ -20,6 +21,10 @@ namespace OA.Web.Controllers
 
         public IActionResult Index()
         {
+            if(string.IsNullOrEmpty( HttpContext.Session.GetString("Username")))
+            {
+                return RedirectToAction("~/Login/login");
+            }
             return View();
         }
 

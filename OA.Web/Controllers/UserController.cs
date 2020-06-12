@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Highsoft.Web.Mvc.Charts;
 using Microsoft.AspNetCore.Mvc;
+using NUnit.Framework;
 using OA.Data;
 using OA.Services;
 using OA.Web.Models;
@@ -37,46 +39,59 @@ namespace OA.Web.Controllers
             });
             return View(model);
         }
-        public string highcharts()
-        {
-            return "hi";
-        }
         [HttpGet]
-        public IActionResult AddUser()
+        public ActionResult AddorEdit()
         {
-            UserViewModel model = new UserViewModel();
-            return View(model);
-
+            UserViewModel userModal = new UserViewModel();
+            return View(userModal);
         }
+
         [HttpPost]
-        public ActionResult AddUser(UserViewModel model)
+        public ActionResult AddorEdit(UserViewModel userModal)
         {
             User userentity = new User
             {
-                UserName = model.UserName,
-                Email = model.Email,
-                Password = model.Password,
+                UserName = userModal.UserName,
+                Email = userModal.Email,
+                Password = userModal.Password,
                 AddedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now,
                 IPAddress = Request.HttpContext.Connection.RemoteIpAddress.ToString(),
                 UserProfile = new UserProfile
                 {
-                    FirstName=model.FirstName,
-                    LastName=model.LastName,
-                    Address=model.Address,
+                    FirstName = userModal.FirstName,
+                    LastName = userModal.LastName,
+                    Address = userModal.Address,
                     AddedDate = DateTime.Now,
                     ModifiedDate = DateTime.Now,
                     IPAddress = Request.HttpContext.Connection.RemoteIpAddress.ToString(),
                 }
             };
             this.userService.InsertUser(userentity);
-            if(userentity.Id>0)
+            ModelState.Clear();
+          /*  if (userentity.Id > 0)
             {
                 return RedirectToAction("Index");
-            }
-            return View(model);
+            }*/
+            ViewBag.SuccessMessage = "Registration Successful";
+            return View(userModal);
         }
 
+        public ActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return Redirect("~/Login/login");
+        }
+
+        public ActionResult tabulator()
+        {
+            return View();
+        }
+        public ActionResult highcharts()
+        {
+            return View();
+        }
+        
         [HttpGet]
         public ActionResult EditUser(int id)
         {
@@ -152,6 +167,41 @@ namespace OA.Web.Controllers
                 model.UserName = userEntity.UserName;
             }
             return View(model);
+        }
+        public ActionResult ColumnBasic()
+        {
+            List<double> tokyoValues = new List<double> { 49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4 };
+            List<double> nyValues = new List<double> { 83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6, 92.3 };
+            List<double> berlinValues = new List<double> { 42.4, 33.2, 34.5, 39.7, 52.6, 75.5, 57.4, 60.4, 47.6, 39.1, 46.8, 51.1 };
+            List<double> londonValues = new List<double> { 48.9, 38.8, 39.3, 41.4, 47.0, 48.3, 59.0, 59.6, 52.4, 65.2, 59.3, 51.2 };
+            List<ColumnSeriesData> tokyoData = new List<ColumnSeriesData>();
+            List<ColumnSeriesData> nyData = new List<ColumnSeriesData>();
+            List<ColumnSeriesData> berlinData = new List<ColumnSeriesData>();
+            List<ColumnSeriesData> londonData = new List<ColumnSeriesData>();
+
+            tokyoValues.ForEach(p => tokyoData.Add(new ColumnSeriesData
+            {
+                Y = p
+            }));
+            nyValues.ForEach(p => nyData.Add(new ColumnSeriesData
+            {
+                Y = p
+            }));
+            berlinValues.ForEach(p => berlinData.Add(new ColumnSeriesData
+            {
+                Y = p
+            }));
+            londonValues.ForEach(p => londonData.Add(new ColumnSeriesData
+            {
+                Y = p
+            }));
+
+            ViewData["tokyoData"] = tokyoData;
+            ViewData["nyData"] = nyData;
+            ViewData["berlinData"] = berlinData;
+            ViewData["londonData"] = londonData;
+
+            return View();
         }
 
     }

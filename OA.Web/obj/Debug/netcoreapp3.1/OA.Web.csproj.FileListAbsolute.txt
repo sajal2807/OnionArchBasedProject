@@ -148,10 +148,15 @@ C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\bin\Debug\netcoreap
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\bin\Debug\netcoreapp3.1\BCrypt.Net-Core.dll
-C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\OA.Web.csproj.CoreCompileInputs.cache
-C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\OA.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Pages\SignUp.cshtml.g.cs
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\AddUser.cshtml.g.cs
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\EditUser.cshtml.g.cs
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\DeleteUser.cshtml.g.cs
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\DetailsUser.cshtml.g.cs
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\bin\Debug\netcoreapp3.1\Highcharts.dll
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\ColumnBasic.cshtml.g.cs
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\AddorEdit.cshtml.g.cs
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\Login\login.cshtml.g.cs
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\highcharts.cshtml.g.cs
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\tabulator.cshtml.g.cs

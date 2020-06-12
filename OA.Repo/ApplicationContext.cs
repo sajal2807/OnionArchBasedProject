@@ -8,10 +8,15 @@ namespace OA.Repo
 {
     public class ApplicationContext : DbContext
     {
+        
+
         public ApplicationContext(DbContextOptions<ApplicationContext> option) : base(option)
         {
 
         }
+
+        public object User { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
