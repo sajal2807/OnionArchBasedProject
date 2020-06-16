@@ -160,3 +160,5 @@ C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreap
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\Login\login.cshtml.g.cs
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\highcharts.cshtml.g.cs
 C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\tabulator.cshtml.g.cs
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\OA.Web.csproj.CoreCompileInputs.cache
+C:\Users\Sajal gmpcs\source\repos\Onion Architechture\OA.Web\obj\Debug\netcoreapp3.1\OA.Web.MvcApplicationPartsAssemblyInfo.cache
