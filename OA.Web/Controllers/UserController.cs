@@ -85,10 +85,26 @@ namespace OA.Web.Controllers
 
         public ActionResult tabulator()
         {
-            return View();
+            List<UserViewModel> model = new List<UserViewModel>();
+            this.userService.GetUsers().ToList().ForEach(u =>
+            {
+                UserProfile userProfile = this.userProfileService.GetUserProfile(u.Id);
+
+                UserViewModel user = new UserViewModel
+                {
+                    Id = u.Id,
+                    Name = $"{userProfile.FirstName} {userProfile.LastName}",
+                    Email = u.Email,
+                    Address = userProfile.Address,
+                    AddedDate = userProfile.AddedDate
+                };
+                model.Add(user);
+            });
+            return View(model);
         }
         public ActionResult highcharts()
         {
+
             return View();
         }
         
