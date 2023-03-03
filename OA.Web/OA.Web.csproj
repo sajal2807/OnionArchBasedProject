@@ -7,7 +7,7 @@
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Core" Version="1.6.0" />
     <PackageReference Include="Highsoft.Highcharts" Version="8.0.0.3" />
-    <PackageReference Include="jQuery.Validation" Version="1.19.1" />
+    <PackageReference Include="jQuery.Validation" Version="1.19.3" />
     <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.4">
       <PrivateAssets>all</PrivateAssets>
